@@ -25,7 +25,7 @@ class LoginVC: UIViewController {
         // Do any additional setup after loading the view.
         settextField(mobileNumberTextField)
         
-        SignUpVCViewController.setTextFieldColor(mobileNumberTextField, mobileNumberTextField.placeholder ?? "")
+        setTextFieldColor(mobileNumberTextField, mobileNumberTextField.placeholder ?? "")
        
         if let userimage = userimage {
             userImage.image = userimage

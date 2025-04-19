@@ -24,13 +24,13 @@
 		BD530BE82C4BDC08001C9F79 /* LoginPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD530BE72C4BDC08001C9F79 /* LoginPageUITests.swift */; };
 		BD530BEA2C4BDC08001C9F79 /* LoginPageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD530BE92C4BDC08001C9F79 /* LoginPageUITestsLaunchTests.swift */; };
 		BD9568022C4C116F00037126 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9568012C4C116F00037126 /* LoginVC.swift */; };
-		BDC11FEE2C4C08A8004B1641 /* UtilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC11FED2C4C08A7004B1641 /* UtilityVC.swift */; };
 		BDCC8E322C4EF6D2009C415D /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCC8E312C4EF6D2009C415D /* OTPViewController.swift */; };
 		CE0C93E62DA796FA00E80B93 /* AuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C93E52DA796FA00E80B93 /* AuthVM.swift */; };
 		CE0C93E92DA797D600E80B93 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C93E82DA797D600E80B93 /* UIColor+Extension.swift */; };
 		CE0C93EB2DA797F200E80B93 /* UITextFiled+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C93EA2DA797F200E80B93 /* UITextFiled+Extension.swift */; };
 		CE0C93EE2DA7984C00E80B93 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C93ED2DA7984C00E80B93 /* UIViewController+Extension.swift */; };
 		CE0C93F02DA798EB00E80B93 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C93EF2DA798EB00E80B93 /* UIView+Extension.swift */; };
+		CE9BA74B2DB42BDA00104E25 /* UtilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DC7DC2C4D316200FEE95A /* UtilityVC.swift */; };
 		CEE87F772DA6F74D008BF5E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEE87F762DA6F74D008BF5E6 /* FirebaseAuth */; };
 		CEE87F792DA6F74D008BF5E6 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CEE87F782DA6F74D008BF5E6 /* FirebaseCore */; };
 		CEE87F7B2DA6F74D008BF5E6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = CEE87F7A2DA6F74D008BF5E6 /* FirebaseCrashlytics */; };
@@ -80,7 +80,6 @@
 		BD530BE72C4BDC08001C9F79 /* LoginPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageUITests.swift; sourceTree = "<group>"; };
 		BD530BE92C4BDC08001C9F79 /* LoginPageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD9568012C4C116F00037126 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		BDC11FED2C4C08A7004B1641 /* UtilityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilityVC.swift; path = ../../../UtilityVC.swift; sourceTree = "<group>"; };
 		BDCC8E312C4EF6D2009C415D /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		C0517CA39BCB61BAE46CCB63 /* Pods-LoginPage-LoginPageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage-LoginPageUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginPage-LoginPageUITests/Pods-LoginPage-LoginPageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD712DDE7CCAF8F011ED8173 /* Pods_LoginPage_LoginPageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPage_LoginPageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,7 +206,6 @@
 				CE0C93E72DA797C600E80B93 /* Extension */,
 				CE0C93E42DA796E100E80B93 /* ViewModel */,
 				BD0DC7DB2C4D316100FEE95A /* Delegates */,
-				BDC11FED2C4C08A7004B1641 /* UtilityVC.swift */,
 				BD0DC7DA2C4D315200FEE95A /* Models */,
 				BD0DC7D92C4D314200FEE95A /* Controllers */,
 				BD530BCC2C4BDC06001C9F79 /* Main.storyboard */,
@@ -498,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9BA74B2DB42BDA00104E25 /* UtilityVC.swift in Sources */,
 				CE0C93E62DA796FA00E80B93 /* AuthVM.swift in Sources */,
 				CE0C93EE2DA7984C00E80B93 /* UIViewController+Extension.swift in Sources */,
 				BD2F210F2C4D93FC00F04838 /* SetingsVC.swift in Sources */,
@@ -510,7 +509,6 @@
 				BD0DC7D82C4D28EC00FEE95A /* AuthManager.swift in Sources */,
 				BD530BC72C4BDC06001C9F79 /* AppDelegate.swift in Sources */,
 				BD530BC92C4BDC06001C9F79 /* SceneDelegate.swift in Sources */,
-				BDC11FEE2C4C08A8004B1641 /* UtilityVC.swift in Sources */,
 				BD9568022C4C116F00037126 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
